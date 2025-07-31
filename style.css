@@ -1,0 +1,88 @@
+ html {
+     scroll-behavior: smooth;
+ }
+
+ body {
+     font-family: 'Segoe UI', sans-serif;
+     color: #222;
+     line-height: 1.6;
+ }
+
+ .navbar {
+     background-color: transparent;
+     transition: background-color 0.3s;
+ }
+
+ .navbar-brand img {
+     height: 40px;
+ }
+
+ .nav-link {
+     color: #fff !important;
+     margin-left: 10px;
+ }
+
+ header.hero {
+     height: 100vh;
+     background: url('School-768x363.jpeg') center center/cover no-repeat;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     padding: 20px;
+     position: relative;
+ }
+
+ header.hero::after {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: rgba(0, 0, 0, 0.4);
+ }
+
+ header.hero .content {
+     position: relative;
+     z-index: 1;
+ }
+
+ .stream,
+ .highlight,
+ .faculty,
+ .facility,
+ .achievement {
+     background-color: #eaf2f8;
+     padding: 20px;
+     border-radius: 8px;
+ }
+
+ section {
+     padding: 40px 0;
+     border-bottom: 1px solid #ddd;
+ }
+
+ section h2 {
+     color: #003366;
+     margin-bottom: 20px;
+ }
+
+ footer {
+     background-color: #003366;
+     color: white;
+     padding: 40px 20px;
+     text-align: center;
+ }
+
+ .navbar {
+     background-color: transparent;
+     transition: background-color 0.3s ease;
+ }
+
+ .navbar.scrolled {
+     background-color: rgba(0, 51, 102, 0.95) !important;
+     /* Solid color after scroll */
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ }
